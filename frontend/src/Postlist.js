@@ -1,9 +1,16 @@
 import React from 'react';
+import Posts from './Posts';
 
 function Postlist() {
   return (
     <div>
-      <h1>Keep your eye on this space for future content...</h1>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
     </div>
   )
 }
