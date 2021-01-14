@@ -4,7 +4,11 @@ import logo from './logo.svg'
 function Posts() {
   return (
     <div>
-      <img src={logo} width="300" height="300" alt="Hello" />
+      <img src={`${process.env.PUBLIC_URL}images/catshark.jpg`}
+      width="300" 
+      height="300" 
+      alt="50 Califonia St." 
+    />  
       <h1>Name...</h1>
       <div>Address...</div>
     </div>
